@@ -1,0 +1,30 @@
+Only trust stats marked with a #
+#Num Rounds Tested: 200
+#A Win: 0
+#B Win: 77
+#C Win: 123
+#Highest Win: 360
+#Lowest Win: 120
+#Average Win: 225
+Max GO8s: 5
+Average GO8s: 0
+Max Campuses: 8
+Average Campuses: 4
+Max Arcs: 15
+Average Arcs: 12
+Max Publications: 29
+Average Publications: 4
+Max IPs: 7
+Average IPs: 6
+Max THDs: 10028
+Average THDs: 0
+Max BPSs: 1461
+Average BPSs: 0
+Max BQNs: 3754
+Average BQNs: 0
+Max MJs: 1027
+Average MJs: 0
+Max MTVs: 143
+Average MTVs: 0
+Max MMONEYs: 403
+Average MMONEYs: 0

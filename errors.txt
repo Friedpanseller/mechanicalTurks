@@ -1,0 +1,65 @@
+mechanicalTurk.c: In function 'decideAction':
+mechanicalTurk.c:117:9: error: expected '}' before 'else'
+         else if (isLegalAction (g, nextAction) == 0) {
+         ^
+mechanicalTurk.c:115:13: error: unused variable 'tempActionHolder' [-Werror=unused-variable]
+         int tempActionHolder = nextAction.actionCode;
+             ^
+mechanicalTurk.c:129:41: error: 'tempActionHolder' undeclared (first use in this function)
+                 nextAction.actionCode = tempActionHolder;
+                                         ^
+mechanicalTurk.c:129:41: note: each undeclared identifier is reported only once for each function it appears in
+mechanicalTurk.c:133:3: error: expected ';' before '}' token
+   }
+   ^
+mechanicalTurk.c:78:6: error: unused variable 'count' [-Werror=unused-variable]
+  int count = 0;
+      ^
+mechanicalTurk.c:77:6: error: unused variable 'isLegalVertex' [-Werror=unused-variable]
+  int isLegalVertex = 0;
+      ^
+mechanicalTurk.c:76:6: error: unused variable 'isLegalArc' [-Werror=unused-variable]
+  int isLegalArc = 0;
+      ^
+mechanicalTurk.c:75:9: error: unused variable 'pathingCount' [-Werror=unused-variable]
+     int pathingCount = 0;
+         ^
+mechanicalTurk.c:71:9: error: unused variable 'myUni' [-Werror=unused-variable]
+     int myUni = getWhoseTurn(g);
+         ^
+mechanicalTurk.c: At top level:
+mechanicalTurk.c:137:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_BPS)) >= 3) {
+     ^
+mechanicalTurk.c:181:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_BQN)) >= 3) {
+     ^
+mechanicalTurk.c:225:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_MJ)) >= 3) {
+     ^
+mechanicalTurk.c:269:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_MMONEY)) >= 3) {
+     ^
+mechanicalTurk.c:313:5: error: expected identifier or '(' before 'if'
+     if(ENOUGH_STUDENTS_FOR_ARC) {
+     ^
+mechanicalTurk.c:516:2: error: expected identifier or '(' before 'if'
+  if(ENOUGH_STUDENTS_FOR_CAMPUS) {
+  ^
+mechanicalTurk.c:720:2: error: expected identifier or '(' before 'if'
+  if(ENOUGH_STUDENTS_FOR_GO8) {
+  ^
+mechanicalTurk.c:925:5: error: expected identifier or '(' before 'if'
+     if((getStudents (g, getWhoseTurn(g), STUDENT_MJ)) != 0 &&
+     ^
+mechanicalTurk.c:931:4: error: expected identifier or '(' before 'return'
+    return nextAction;
+    ^
+mechanicalTurk.c:932:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+mechanicalTurk.c: In function 'decideAction':
+mechanicalTurk.c:134:5: error: control reaches end of non-void function [-Werror=return-type]
+     }
+     ^
+cc1: all warnings being treated as errors

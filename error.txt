@@ -1,0 +1,73 @@
+mechanicalTurk.c: In function 'decideAction':
+mechanicalTurk.c:47:28: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+ #define NEED_BQN_FOR_ARC (g, getWhoseTurn(g), STUDENT_BQN) == 0 && g, getWhoseTurn(g), STUDENT_BPS) >= 1)
+                            ^
+mechanicalTurk.c:697:43: note: in expansion of macro 'NEED_BQN_FOR_ARC'
+         else if (RT_MTV_BQN_FOR_CAMPUS || NEED_BQN_FOR_ARC) {
+                                           ^
+mechanicalTurk.c:47:65: error: suggest parentheses around '&&' within '||' [-Werror=parentheses]
+ #define NEED_BQN_FOR_ARC (g, getWhoseTurn(g), STUDENT_BQN) == 0 && g, getWhoseTurn(g), STUDENT_BPS) >= 1)
+                                                                 ^
+mechanicalTurk.c:697:43: note: in expansion of macro 'NEED_BQN_FOR_ARC'
+         else if (RT_MTV_BQN_FOR_CAMPUS || NEED_BQN_FOR_ARC) {
+                                           ^
+mechanicalTurk.c:47:65: error: value computed is not used [-Werror=unused-value]
+ #define NEED_BQN_FOR_ARC (g, getWhoseTurn(g), STUDENT_BQN) == 0 && g, getWhoseTurn(g), STUDENT_BPS) >= 1)
+                                                                 ^
+mechanicalTurk.c:697:43: note: in expansion of macro 'NEED_BQN_FOR_ARC'
+         else if (RT_MTV_BQN_FOR_CAMPUS || NEED_BQN_FOR_ARC) {
+                                           ^
+mechanicalTurk.c:47:65: error: value computed is not used [-Werror=unused-value]
+ #define NEED_BQN_FOR_ARC (g, getWhoseTurn(g), STUDENT_BQN) == 0 && g, getWhoseTurn(g), STUDENT_BPS) >= 1)
+                                                                 ^
+mechanicalTurk.c:697:43: note: in expansion of macro 'NEED_BQN_FOR_ARC'
+         else if (RT_MTV_BQN_FOR_CAMPUS || NEED_BQN_FOR_ARC) {
+                                           ^
+mechanicalTurk.c:47:101: error: expected expression before '>=' token
+ #define NEED_BQN_FOR_ARC (g, getWhoseTurn(g), STUDENT_BQN) == 0 && g, getWhoseTurn(g), STUDENT_BPS) >= 1)
+                                                                                                     ^
+mechanicalTurk.c:697:43: note: in expansion of macro 'NEED_BQN_FOR_ARC'
+         else if (RT_MTV_BQN_FOR_CAMPUS || NEED_BQN_FOR_ARC) {
+                                           ^
+mechanicalTurk.c:47:105: error: expected statement before ')' token
+ #define NEED_BQN_FOR_ARC (g, getWhoseTurn(g), STUDENT_BQN) == 0 && g, getWhoseTurn(g), STUDENT_BPS) >= 1)
+                                                                                                         ^
+mechanicalTurk.c:697:43: note: in expansion of macro 'NEED_BQN_FOR_ARC'
+         else if (RT_MTV_BQN_FOR_CAMPUS || NEED_BQN_FOR_ARC) {
+                                           ^
+mechanicalTurk.c:697:59: error: expected statement before ')' token
+         else if (RT_MTV_BQN_FOR_CAMPUS || NEED_BQN_FOR_ARC) {
+                                                           ^
+mechanicalTurk.c:703:9: error: expected '}' before 'else'
+         else {
+         ^
+mechanicalTurk.c:705:13: error: expected ',' or ';' before 'while'
+             while (randomStudent == 4) {
+             ^
+mechanicalTurk.c: At top level:
+mechanicalTurk.c:715:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_BPS)) >= 3) {
+     ^
+mechanicalTurk.c:729:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_BQN)) >= 3) {
+     ^
+mechanicalTurk.c:743:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_MJ)) >= 3) {
+     ^
+mechanicalTurk.c:757:5: error: expected identifier or '(' before 'if'
+     if ((getStudents (g, getWhoseTurn(g), STUDENT_BPS)) >= 3) {
+     ^
+mechanicalTurk.c:771:5: error: expected identifier or '(' before 'if'
+     if((getStudents (g, getWhoseTurn(g), STUDENT_MJ)) != 0 &&
+     ^
+mechanicalTurk.c:777:4: error: expected identifier or '(' before 'return'
+    return nextAction;
+    ^
+mechanicalTurk.c:778:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+mechanicalTurk.c: In function 'decideAction':
+mechanicalTurk.c:712:5: error: control reaches end of non-void function [-Werror=return-type]
+     }
+     ^
+cc1: all warnings being treated as errors
